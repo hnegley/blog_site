@@ -1,0 +1,67 @@
+/*
+Theme Name: Holly's Blank Theme
+Theme URI: URL for FirstName Blank
+Author: Holly Negley
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: Holly_Negley_Blank_Template
+*/
+
+@import url("css/skeleton.css");
+@import url("css/normalize.css");
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.clear {clear: both;}
+
+h1 {font-size: 3.0rem;}
+h2 {font-size: 2.6rem;}
+h3 {font-size: 2.3rem;}
+h4 {font-size: 2.1rem;}
+h5 {font-size: 1.6rem;}
+h6 {font-size: 1.1rem;}
+
+
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    text-align: right;
+    margin-top: 40px;
+}
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
+
+/*--- Front Page ---*/
+
+.post-thumbnail-container{
+    border:1px solid #000;
+    padding:2px;
+    margin:0px 10px 10px 0;
+    float:left;
+}
+
+
+
