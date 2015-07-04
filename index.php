@@ -1,7 +1,17 @@
 <?php get_header(); ?>
 
-	<section class="row">
-    	<div class="twelve columns">
+
+    <section class="row">
+        <div class="four columns">
+            
+            <img id="skinny_left" src="images/me.jpg" width="190" height="273" alt=""/> 
+
+            </div>
+    
+    <section class="row">
+    	<div class="eight columns">
+            
+            <div id="right_blog_content">
 
     		<!-- BEGIN LOOP -->
             	<?php 
@@ -22,9 +32,8 @@
             	} // end if
             	?>
 
-            	
-
 			<!-- END LOOP -->
+            </div> <!--ENDS RIGHT_BLOG_CONTENT-->
     	</div>
     </section>
 

@@ -10,9 +10,8 @@
 	<div class="container">
 	
 	<header class="row">
-			
 			<div class="twelve columns">
-                <a href="/"><img src="images/name_plate_3.jpg" width="960" height="303" alt=""/></a>
+                <img src="images/name_plate_3.jpg" width="960" height="303" alt=""/>
     		</div>
         
     	</header>
