@@ -26,13 +26,21 @@ h4 {font-size: 2.1rem;}
 h5 {font-size: 1.6rem;}
 h6 {font-size: 1.1rem;}
 
+body{background-color: #D6C8C8;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;}
 
 
 /*--- Menu --- */
 
+img {width:100%;}
+
+
 .blank-menu-header {
-    text-align: right;
-    margin-top: 40px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .blank-menu-header ul {
     margin: 0; 
@@ -46,12 +54,12 @@ h6 {font-size: 1.1rem;}
 .blank-menu-header ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
+    padding: 5px 0px 5px 0px; 
     font-weight: 300;
     font-size: 1.1rem;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #ffffff;
 }
 
 /*--- Front Page ---*/

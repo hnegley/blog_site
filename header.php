@@ -12,10 +12,9 @@
 	<header class="row">
 			
 			<div class="twelve columns">
-    			<h1><?php bloginfo('name'); ?></h1>
-                <p><?php bloginfo('description'); ?></p>
-    		
-    		</div>	
+                <a href="/"><img src="images/name_plate_3.jpg" width="960" height="303" alt=""/></a>
+    		</div>
+        
     	</header>
     	<div class="row">
     		<div class="twelve columns">
