@@ -3,6 +3,8 @@
 	<section class="row">
 		<div class="twelve columns">
 			
+            <div class="content">
+                
 			<!-- BEGIN SINGLE PHP -->
             
             		<?php if (have_posts()) :
@@ -10,20 +12,20 @@
                 		while (have_posts()) : the_post(); ?> 
                     
                     <div class="post-thumbnail">
-                        <?php the_post_thumbnail('medium'); ?>
+                        <div id="thumbnail_space">
+                        <?php the_post_thumbnail('large'); ?>
                     </div>
                     <h2><?php the_title(); ?></h2>
+                        
                     
-                   <div class="content"> 	
-            
                 <?php the_content();
 
                 	endwhile;
             	endif; ?>
-                       
-                       </div>
-
+                    
 			<!-- END SINGLE PHP -->
+                </div>
+                </div>
 			
         </div>
     </section>

@@ -1,7 +1,20 @@
 <?php get_header(); ?>
     
     <section class="row">
-        <div class="nine columns">
+        
+        
+        <!--BEGIN SIDEBAR AREA-->
+		<div class="four columns">
+            
+            <div class="the_sidebar_one">
+
+			<?php get_sidebar(); ?> </div>
+        
+        </div>
+        <!--END SIDEBAR AREA-->
+        
+        
+        <div class="eight columns">
            
            <!-- BEGIN PAGE PHP -->
             
@@ -23,13 +36,7 @@
         
         </div>
 
-        <!--BEGIN SIDEBAR AREA-->
-		<div class="three columns">
-
-			<?php get_sidebar(); ?>
         
-        </div>
-        <!--END SIDEBAR AREA-->
 
     </section>
 <?php get_footer(); ?>

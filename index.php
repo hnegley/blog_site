@@ -9,11 +9,14 @@
             <div class="the_sidebar_one">
             
 			<?php get_sidebar(); ?>
+            
+            <?php dynamic_sidebar('front-widget'); ?>
+            
+            </div>
         
         </div>
         <!--END SIDEBAR AREA-->
     
-    <section class="row">
     	<div class="eight columns">
             
             <div id="right_blog_content">

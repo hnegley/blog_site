@@ -31,7 +31,13 @@ body{background-color: #D6C8C8;
 
 /*--- Menu --- */
 
-img {width:100%;}
+img {width:100%;
+    height:auto;
+}
+
+.searchform{
+    
+}
 
 
 .blank-menu-header {
@@ -57,23 +63,24 @@ img {width:100%;}
     padding: 5px 10px 5px 0px; 
     font-weight: 300;
     font-size: 1.3rem;
-    color: #D6C8C8;
+    color: #AD9E9E;
 }
 .blank-menu-header ul li a:hover {
-    color: #ffffff;
+    color:#D6C8C8;
+
 }
 
 /*--- Front Page ---*/
 
 .post-thumbnail-container{
     width:100%;
-    
+    height:auto;
 }
 
 #right_blog_content {
     background-color: white;
     padding: 20px 20px 20px 20px;
-    margin-left: 20px;
+    margin-left: -20px;
     float:right;
 }
 
@@ -93,10 +100,6 @@ img {width:100%;}
     font-weight: bold;
 }
 
-#skinny_left{
-   
-}
-
 .read-more {
     color:#AD9E9E;
     text-decoration: none;
@@ -107,13 +110,20 @@ img {width:100%;}
 
 .content {
     background-color: white;
-    padding: 20px 20px 20px 20px; 
+    padding: 20px 20px 20px 20px;
+    margin-left: -20px;
 }
 
 /*--- Side Bar Page ---*/
 
 .the_sidebar_one{
-    
+    background-color: white;
+    text-align:center;
+    padding: 20px 20px 20px 20px;
+}
+
+#thumbnail_space{
+    margin-bottom: 20px;
 }
 
 /*--- Footer Page ---*/

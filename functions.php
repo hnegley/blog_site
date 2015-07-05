@@ -16,8 +16,8 @@ function blank_widgets_init() {
 /*---First New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget One'),
-        'id' => 'footer-widget-one',
+        'name' => ('Front Widget'),
+        'id' => 'front-widget',
         'description' => 'First widget for our footer', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
