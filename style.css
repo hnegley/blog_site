@@ -12,7 +12,7 @@ Text Domain: Holly_Negley_Blank_Template
 @import url("css/normalize.css");
 
 *{
-    color: #000000;
+    color: #AD9E9E;
     font-size: 14px;
     line-height: 16px;
 }
@@ -36,9 +36,10 @@ img {width:100%;}
 
 .blank-menu-header {
     background-color: white;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 20px 20px;
     text-align: left;
     margin-bottom: 20px;
+    margin-top: -5px;
 }
 
 .blank-menu-header ul {
@@ -65,18 +66,61 @@ img {width:100%;}
 /*--- Front Page ---*/
 
 .post-thumbnail-container{
-    border:1px solid #000;
-    padding:2px;
-    margin:0px 10px 10px 0;
-    float:left;
+    width:100%;
+    
 }
 
 #right_blog_content {
     background-color: white;
     padding: 20px 20px 20px 20px;
     margin-left: 20px;
+    float:right;
+}
+
+#the_excerpt_styling{
+    
+}
+
+#right_blog_content h4{
+    font-weight: bold;
+    letter-spacing: .1rem;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+#right_blog_content h6{
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 #skinny_left{
    
+}
+
+.read-more {
+    color:#AD9E9E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*--- Single and Page Page ---*/
+
+.content {
+    background-color: white;
+    padding: 20px 20px 20px 20px; 
+}
+
+/*--- Side Bar Page ---*/
+
+.the_sidebar_one{
+    
+}
+
+/*--- Footer Page ---*/
+
+#footer_content {
+    color: white;
+    text-align:center;
+    padding: 20px 20px 10px 20px;
+    
 }

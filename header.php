@@ -11,7 +11,9 @@
 	
 	<header class="row">
 			<div class="twelve columns">
-                <img src="images/name_plate_3.jpg" width="960" height="303" alt=""/>
+               
+                <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+                
     		</div>
         
     	</header>

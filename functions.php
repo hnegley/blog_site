@@ -60,6 +60,27 @@ add_theme_support('menus');
 
 add_theme_support('post-thumbnails');
 
+/*--------------- Enable 'Read More' -------------------*/
+
+function new_excerpt_more( $more ) {
+	return ' <a class="read-more" href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More...', 'your-text-domain' ) . '</a>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+/*------------------ Adding Custom Header Option ----------------*/
+
+add_theme_support( 'custom-header' );
+
+$args = array(
+	'flex-width'    => true,
+	'width'         => 980,
+	'flex-height'    => true,
+	'height'        => 200,
+	'default-image' => get_template_directory_uri() . '/images/header.jpg',
+);
+add_theme_support( 'custom-header', $args );
+
+
 
 
 

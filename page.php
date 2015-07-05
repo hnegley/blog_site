@@ -5,6 +5,8 @@
            
            <!-- BEGIN PAGE PHP -->
             
+            <div class="content">
+            
             <?php if (have_posts()) : 
                 /* OUR DATA CONTEXT IS DEFINED  */      
                 while (have_posts()) : the_post(); ?> 
@@ -14,6 +16,8 @@
                     <?php the_content();
                 endwhile;
             endif; ?>
+                
+                </div>
 
 <!-- END PAGE PHP -->
         
