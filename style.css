@@ -35,17 +35,13 @@ img {width:100%;
     height:auto;
 }
 
-.searchform{
-    
-}
-
-
 .blank-menu-header {
     background-color: white;
     padding: 10px 0px 20px 20px;
     text-align: left;
     margin-bottom: 20px;
     margin-top: -5px;
+    margin-right: -200px;
 }
 
 .blank-menu-header ul {
@@ -69,6 +65,21 @@ img {width:100%;
     color:#D6C8C8;
 
 }
+
+/*--- Search Box ---*/
+
+.search-form{
+    display: inline;
+    float:right;
+}
+
+.search-field{
+    height:2px;
+    margin-top: -3px;
+    border: 0px;
+    
+}
+
 
 /*--- Front Page ---*/
 
@@ -130,7 +141,21 @@ img {width:100%;
 
 #footer_content {
     color: white;
-    text-align:center;
-    padding: 20px 20px 10px 20px;
+    text-align:right;
+    padding: 20px 0px 10px 20px;
+    
+}
+
+/*--- Menu Media Query ---*/
+
+@media (max-width: 650px){
+    
+.blank-menu-header {
+    background-color: white;
+    padding: 10px 0px 20px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
     
 }

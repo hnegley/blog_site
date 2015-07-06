@@ -80,6 +80,10 @@ $args = array(
 );
 add_theme_support( 'custom-header', $args );
 
+/*------------------ Adding Search Form Option ----------------*/
+
+add_theme_support( 'html5', array( 'search-form' ) );
+
 
 
 

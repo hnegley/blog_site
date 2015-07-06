@@ -18,7 +18,7 @@
         
     	</header>
     	<div class="row">
-    		<div class="eight columns">
+    		<div class="seven columns">
     			<?php wp_nav_menu(array (
     				'sort_column' => 'menu_order',
     				'container_class' => 'blank-menu-header'
@@ -27,7 +27,7 @@
                 
                 </div>
 
-            <div class="four columns search_bar">
+            <div class="five columns search_bar">
                 <?php get_search_form(); ?>
                 
                 </div>

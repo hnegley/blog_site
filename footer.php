@@ -3,7 +3,7 @@
     		
     		<div class="twelve columns">
                 
-                <p id="footer_content">------------------------------------------------------------------------     Copyright Holly Negley 2015.     ------------------------------------------------------------------------</p>
+               <p id="footer_content"> Copyright Holly Negley 2015. </p>
             
             </div>
             
