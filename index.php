@@ -8,7 +8,7 @@
 
             <div class="the_sidebar_one">
             
-			<?php get_sidebar(); ?>
+			<?php dynamic_sidebar('first-widget'); ?>
                 
                 </div>
             

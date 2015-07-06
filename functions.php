@@ -40,9 +40,9 @@ function blank_widgets_init() {
 /*---Third New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget Three'),
-        'id' => 'footer-widget-three',
-        'description' => 'Third widget for our footer', 
+        'name' => ('Face Widget'),
+        'id' => 'face-widget',
+        'description' => 'My face', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',

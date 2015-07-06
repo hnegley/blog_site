@@ -8,7 +8,7 @@
             
             <div class="the_sidebar_one">
 
-			<?php get_sidebar(); ?> </div>
+	       <?php dynamic_sidebar('face-widget'); ?> </div>
         
         </div>
         <!--END SIDEBAR AREA-->
