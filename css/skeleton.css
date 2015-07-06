@@ -236,6 +236,7 @@ select {
   background-color: #fff;
   box-shadow: none;
   box-sizing: border-box; }
+
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],

@@ -9,10 +9,20 @@
             <div class="the_sidebar_one">
             
 			<?php get_sidebar(); ?>
+                
+                </div>
             
-            <?php dynamic_sidebar('front-widget'); ?>
+                    <div id="momo_quote">
+                
+                    <?php dynamic_sidebar('front-widget'); ?>
+                
+                    </div>
             
-            </div>
+                        <div id="next_box">
+                            
+                           <?php dynamic_sidebar('next-widget'); ?> 
+                            
+                        </div>
         
         </div>
         <!--END SIDEBAR AREA-->

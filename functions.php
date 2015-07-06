@@ -18,7 +18,7 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name' => ('Front Widget'),
         'id' => 'front-widget',
-        'description' => 'First widget for our footer', 
+        'description' => 'Front widget', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',
@@ -28,9 +28,9 @@ function blank_widgets_init() {
 /*---Second New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget Two'),
-        'id' => 'footer-widget-two',
-        'description' => 'Second widget for our footer', 
+        'name' => ('Next Widget'),
+        'id' => 'search-widget',
+        'description' => 'Next widget', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',

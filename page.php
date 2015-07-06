@@ -18,7 +18,7 @@
            
            <!-- BEGIN PAGE PHP -->
             
-            <div class="content">
+            <div class="content stay">
             
             <?php if (have_posts()) : 
                 /* OUR DATA CONTEXT IS DEFINED  */      

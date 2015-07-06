@@ -92,11 +92,8 @@ img {width:100%;
     background-color: white;
     padding: 20px 20px 20px 20px;
     margin-left: -20px;
+    margin-top: -10px;
     float:right;
-}
-
-#the_excerpt_styling{
-    
 }
 
 #right_blog_content h4{
@@ -122,6 +119,16 @@ img {width:100%;
 .content {
     background-color: white;
     padding: 20px 20px 20px 20px;
+    margin-top: -10px;
+    
+}
+
+.post-thumbnail{
+    width:100%;
+    height:auto;
+}
+
+.stay{
     margin-left: -20px;
 }
 
@@ -131,6 +138,20 @@ img {width:100%;
     background-color: white;
     text-align:center;
     padding: 20px 20px 20px 20px;
+    margin-top: -10px;
+}
+
+#momo_quote{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#next_box {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
 }
 
 #thumbnail_space{

@@ -3,7 +3,7 @@
 	<section class="row">
 		<div class="twelve columns">
 			
-            <div class="content">
+            <div class="content stay">
                 
 			<!-- BEGIN SINGLE PHP -->
             
